@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/general.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>TESTE</h1>
+    <main>
+        <section>
+            <div id="img">
+            </div>
+            <div id="login">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+                <form action="" method="post">
+                    <p id="email">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail">
+                    </p>
+        
+                    <p id="senha">
+                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="senha" id="isenha">
+                    </p>
+                    <p id="botoes">
+                        <input id="botao-entrar" type="submit" value="Entrar">
+                    </p>
+                    <p>
+                        <input id="botao-esqueci" type="button" value="Esqueci a senha">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

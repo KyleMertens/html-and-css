@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5F2C82;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    margin: auto;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img {
+    background-image: url(../assets/pattern.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    width: 270px;
+    height: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 5px 5px #00000036;
+}
+
+div#login {
+    background-color: white;
+    width: 270px;
+    height: 320px;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 5px 5px #00000036;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 0.9em;
+    margin-top: 3px;
+}
+
+p#email {
+    background-color: #5F2C82;
+}
+
+p#senha {
+    background-color: #5F2C82;
+}
+
+#botao-entrar {
+    height: 40px;
+    width: 250px;
+    background-color: #53AAA7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#botao-entrar:hover {
+    background-color: #356c6b;
+}
+
+#botao-esqueci {
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    color: #234f4e;
+    border: 1px solid #53AAA7;
+    border-radius: 4px;
+}
+
+#botao-esqueci:hover {
+    background-color: #53AAA7;
+}

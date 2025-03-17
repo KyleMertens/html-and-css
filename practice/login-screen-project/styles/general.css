@@ -59,12 +59,21 @@ p {
     margin-top: 3px;
 }
 
-p#email {
-    background-color: #5F2C82;
+.caixas-texto{
+    background-color: #53AAA7;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
 }
 
-p#senha {
+p.fundo-caixa {
     background-color: #5F2C82;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.material-symbols-outlined {
+    color: white;
 }
 
 #botao-entrar {
